@@ -11,6 +11,16 @@ module.exports = {
 		filename: 'app.bundle.js'
 	},
 
-	mode: process.env.NODE_ENV || 'development'
+	mode: process.env.NODE_ENV || 'development',
+
+	module: {
+		rules: [{
+			test: /\.(js|jsx)$/,
+
+			exclude: /node_modules/,
+
+			use: ['babel-loader']
+		}]
+	}
 
 };

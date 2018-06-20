@@ -91,9 +91,10 @@
   !*** ./src/app.js ***!
   \********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("class Human {}\n\n//# sourceURL=webpack:///./src/app.js?");
+"use strict";
+eval("\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Human = function Human() {\n  _classCallCheck(this, Human);\n};\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
